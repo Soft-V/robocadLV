@@ -14,32 +14,32 @@
 		<Item Name="assemblies" Type="Folder">
 			<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/LibraryForLabVIEW.dll"/>
 		</Item>
-		<Item Name="robocadSim" Type="Folder">
+		<Item Name="robocad" Type="Folder">
 			<Item Name="robots" Type="Folder">
 				<Item Name="dev" Type="Folder">
 					<Item Name="connection" Type="Folder">
 						<Item Name="helpers" Type="Folder">
-							<Item Name="ByteArrayToNumber.vi" Type="VI" URL="../robocadSim/robots/dev/connection/helpers/ByteArrayToNumber.vi"/>
-							<Item Name="StringToUTF16LE.vi" Type="VI" URL="../robocadSim/robots/dev/connection/helpers/StringToUTF16LE.vi"/>
+							<Item Name="ByteArrayToNumber.vi" Type="VI" URL="../robocad/robots/dev/connection/helpers/ByteArrayToNumber.vi"/>
+							<Item Name="StringToUTF16LE.vi" Type="VI" URL="../robocad/robots/dev/connection/helpers/StringToUTF16LE.vi"/>
 						</Item>
-						<Item Name="JoinFloatChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/JoinFloatChannel.vi"/>
-						<Item Name="NumericArrayToBoolArray.vi" Type="VI" URL="../robocadSim/robots/dev/connection/NumericArrayToBoolArray.vi"/>
-						<Item Name="ParseFloatChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ParseFloatChannel.vi"/>
+						<Item Name="JoinFloatChannel.vi" Type="VI" URL="../robocad/robots/dev/connection/JoinFloatChannel.vi"/>
+						<Item Name="NumericArrayToBoolArray.vi" Type="VI" URL="../robocad/robots/dev/connection/NumericArrayToBoolArray.vi"/>
+						<Item Name="ParseFloatChannel.vi" Type="VI" URL="../robocad/robots/dev/connection/ParseFloatChannel.vi"/>
 					</Item>
-					<Item Name="ConnectionHelperVMXTitan.vi" Type="VI" URL="../robocadSim/robots/dev/ConnectionHelperVMXTitan.vi"/>
-					<Item Name="SetUpHelper.vi" Type="VI" URL="../robocadSim/robots/dev/SetUpHelper.vi"/>
+					<Item Name="ConnectionHelperVMXTitan.vi" Type="VI" URL="../robocad/robots/dev/ConnectionHelperVMXTitan.vi"/>
+					<Item Name="SetUpHelper.vi" Type="VI" URL="../robocad/robots/dev/SetUpHelper.vi"/>
 				</Item>
-				<Item Name="AngleToHCDIO.vi" Type="VI" URL="../robocadSim/robots/AngleToHCDIO.vi"/>
-				<Item Name="BoolToHCDIO.vi" Type="VI" URL="../robocadSim/robots/BoolToHCDIO.vi"/>
-				<Item Name="ByteArrayToImage.vi" Type="VI" URL="../robocadSim/robots/ByteArrayToImage.vi"/>
-				<Item Name="ConnectRobocad.vi" Type="VI" URL="../robocadSim/robots/ConnectRobocad.vi"/>
-				<Item Name="InitConnection.vi" Type="VI" URL="../robocadSim/robots/InitConnection.vi"/>
-				<Item Name="PWMToHCDIO.vi" Type="VI" URL="../robocadSim/robots/PWMToHCDIO.vi"/>
-				<Item Name="RobocadVMXTitan.vi" Type="VI" URL="../robocadSim/robots/RobocadVMXTitan.vi"/>
-				<Item Name="StopConnection.vi" Type="VI" URL="../robocadSim/robots/StopConnection.vi"/>
+				<Item Name="AngleToHCDIO.vi" Type="VI" URL="../robocad/robots/AngleToHCDIO.vi"/>
+				<Item Name="BoolToHCDIO.vi" Type="VI" URL="../robocad/robots/BoolToHCDIO.vi"/>
+				<Item Name="ByteArrayToImage.vi" Type="VI" URL="../robocad/robots/ByteArrayToImage.vi"/>
+				<Item Name="ConnectRobocad.vi" Type="VI" URL="../robocad/robots/ConnectRobocad.vi"/>
+				<Item Name="InitConnection.vi" Type="VI" URL="../robocad/robots/InitConnection.vi"/>
+				<Item Name="PWMToHCDIO.vi" Type="VI" URL="../robocad/robots/PWMToHCDIO.vi"/>
+				<Item Name="RobocadVMXTitan.vi" Type="VI" URL="../robocad/robots/RobocadVMXTitan.vi"/>
+				<Item Name="StopConnection.vi" Type="VI" URL="../robocad/robots/StopConnection.vi"/>
 			</Item>
 			<Item Name="test" Type="Folder">
-				<Item Name="Test.vi" Type="VI" URL="../robocadSim/test/Test.vi"/>
+				<Item Name="Test.vi" Type="VI" URL="../robocad/test/Test.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
