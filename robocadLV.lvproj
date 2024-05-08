@@ -12,6 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="assemblies" Type="Folder">
+			<Item Name="x86" Type="Folder">
+				<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/x86/LibraryForLabVIEW.dll"/>
+			</Item>
 			<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/LibraryForLabVIEW.dll"/>
 		</Item>
 		<Item Name="robocad" Type="Folder">
