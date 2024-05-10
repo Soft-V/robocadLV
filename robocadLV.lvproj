@@ -23,11 +23,11 @@
 					<Item Name="connection" Type="Folder">
 						<Item Name="helpers" Type="Folder">
 							<Item Name="ByteArrayToNumber.vi" Type="VI" URL="../robocad/robots/dev/connection/helpers/ByteArrayToNumber.vi"/>
-							<Item Name="StringToUTF16LE.vi" Type="VI" URL="../robocad/robots/dev/connection/helpers/StringToUTF16LE.vi"/>
 						</Item>
 						<Item Name="JoinFloatChannel.vi" Type="VI" URL="../robocad/robots/dev/connection/JoinFloatChannel.vi"/>
 						<Item Name="NumericArrayToBoolArray.vi" Type="VI" URL="../robocad/robots/dev/connection/NumericArrayToBoolArray.vi"/>
 						<Item Name="ParseFloatChannel.vi" Type="VI" URL="../robocad/robots/dev/connection/ParseFloatChannel.vi"/>
+						<Item Name="ParseStudicaChannel.vi" Type="VI" URL="../robocad/robots/dev/connection/ParseStudicaChannel.vi"/>
 					</Item>
 					<Item Name="ConnectionHelperVMXTitan.vi" Type="VI" URL="../robocad/robots/dev/ConnectionHelperVMXTitan.vi"/>
 					<Item Name="SetUpHelper.vi" Type="VI" URL="../robocad/robots/dev/SetUpHelper.vi"/>
@@ -38,7 +38,7 @@
 				<Item Name="ConnectRobocad.vi" Type="VI" URL="../robocad/robots/ConnectRobocad.vi"/>
 				<Item Name="InitConnection.vi" Type="VI" URL="../robocad/robots/InitConnection.vi"/>
 				<Item Name="PWMToHCDIO.vi" Type="VI" URL="../robocad/robots/PWMToHCDIO.vi"/>
-				<Item Name="RobocadVMXTitan.vi" Type="VI" URL="../robocad/robots/RobocadVMXTitan.vi"/>
+				<Item Name="RobotVMXTitan.vi" Type="VI" URL="../robocad/robots/RobotVMXTitan.vi"/>
 				<Item Name="StopConnection.vi" Type="VI" URL="../robocad/robots/StopConnection.vi"/>
 			</Item>
 			<Item Name="test" Type="Folder">
