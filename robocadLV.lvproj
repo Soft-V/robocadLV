@@ -28,7 +28,6 @@
 						<Item Name="WriteData.vi" Type="VI" URL="../robocad/robots/dev/connection/WriteData.vi"/>
 					</Item>
 					<Item Name="ConnectionHelperVMXTitan.vi" Type="VI" URL="../robocad/robots/dev/ConnectionHelperVMXTitan.vi"/>
-					<Item Name="SetUpHelper.vi" Type="VI" URL="../robocad/robots/dev/SetUpHelper.vi"/>
 				</Item>
 				<Item Name="AngleToHCDIO.vi" Type="VI" URL="../robocad/robots/AngleToHCDIO.vi"/>
 				<Item Name="BoolToHCDIO.vi" Type="VI" URL="../robocad/robots/BoolToHCDIO.vi"/>
@@ -48,6 +47,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
+				<Item Name="datatype.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/GetValueByPointer/datatype.ctl"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -60,7 +60,6 @@
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 			</Item>
-			<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/x86/LibraryForLabVIEW.dll"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
