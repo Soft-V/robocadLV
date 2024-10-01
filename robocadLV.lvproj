@@ -11,12 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="assemblies" Type="Folder">
-			<Item Name="x86" Type="Folder">
-				<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/x86/LibraryForLabVIEW.dll"/>
-			</Item>
-			<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/LibraryForLabVIEW.dll"/>
-		</Item>
 		<Item Name="robocad" Type="Folder">
 			<Item Name="robots" Type="Folder">
 				<Item Name="dev" Type="Folder">
@@ -66,6 +60,7 @@
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 			</Item>
+			<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/x86/LibraryForLabVIEW.dll"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
